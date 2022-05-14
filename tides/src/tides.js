@@ -60,7 +60,7 @@ export class TidalSimulation {
         this.time = 0; // global time in seconds
         // Constants and buffer variables
         this.gamma = 6.67408e-11; // gravitation constant in m³/(kg*s²)
-        this.distMoonEarth = 384400000; // distance moon to earth in meter
+        this.distMoonEarth = 38440000; // distance moon to earth in meter
         this.distEarthSun = 149597870700; // distance sun to earth 
         // Some vectors of common use
         this.vecEarthSun = new Vec2d(0, 0); // Vector pointing from the earth towards the sun
